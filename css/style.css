@@ -148,3 +148,12 @@
 .port-item-name{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 24px}
 .port-item-name h2{margin:0;font-size:1.4rem}.port-item-name span{font-size:1.6rem;color:#8fc4ff}
 .ports-empty{padding:34px;border:1px dashed var(--line);border-radius:18px;text-align:center;color:var(--muted)}
+
+/* Ports R36S: imágenes de la lista en 4:3 y página de cada port */
+.port-item-image{aspect-ratio:4/3}
+.port-cover{position:relative;width:min(100%,520px);margin:auto;border-radius:22px;overflow:hidden;border:1px solid #4aa3ff55;box-shadow:0 25px 70px #0a2a7a66}
+.port-cover img{display:block;width:100%;height:auto}
+.port-cover .oregairu-platform,.port-cover .port-badge{position:absolute;top:14px;left:14px;padding:5px 11px;border:1px solid #ffffff33;border-radius:999px;background:#161021cc;font-size:.72rem;font-weight:800}
+.port-hero .eyebrow{color:#8fc4ff}.port-hero .status{color:#8fc4ff}.port-hero .status i{background:#4aa3ff;box-shadow:0 0 12px #4aa3ff}
+.port-hero h1{font-size:clamp(2.6rem,6vw,5rem)}
+.port-gallery-empty{padding:34px;border:1px dashed var(--line);border-radius:18px;text-align:center;color:var(--muted)}
