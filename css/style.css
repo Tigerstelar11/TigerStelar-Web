@@ -170,3 +170,7 @@
 .ports-list{max-width:400px;gap:18px}
 .port-item{border-radius:18px}
 .port-item-name{padding:13px 18px}.port-item-name h2{font-size:1.08rem}.port-item-name span{font-size:1.4rem}
+
+/* Tamaño fijo de cada port (independiente del margen de la página) */
+.ports-list{max-width:none;align-items:center}
+.port-item{width:290px;max-width:100%}
